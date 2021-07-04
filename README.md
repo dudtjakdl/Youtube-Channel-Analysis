@@ -21,14 +21,14 @@
 
 **자세한 과정과 코드 설명은 :point_right:[report.pdf](https://github.com/dudtjakdl/Youtube-Channel-Analysis/blob/main/report.pdf):point_left: 참고!**
 
-* 현재(2021.07) [utu(유투)](https://utu.kr/rank) 사이트 top100 랭킹에 **해외 유튜버의 데이터가 추가되어** 프로젝트를 실제 수행 했을때(2019.11~2019.12)의 분석 결과와 다릅니다.:sob:
+* 현재(2021.07) [utu(우투)](https://utu.kr/rank) 사이트 top100 랭킹에 **해외 유튜버의 데이터가 추가되어** 프로젝트를 실제 수행 했을때(2019.11~2019.12)의 분석 결과와 다릅니다.:sob:
 
 ![프로젝트 과정](https://i.ibb.co/7Nx2Q9N/image.png)
 
 1. 데이터 생성
     - DataFrame1 (df1) - [noxinfluencer](https://kr.noxinfluencer.com/youtube-channel-rank/top-100-kr-all-youtuber-sorted-by-subs-weekly/)에서 한국 top100
 유튜브채널 정보 크롤링 
-    - DataFrame2 (df2) - [utu(유투)](https://utu.kr/rank)에서 한국 top100
+    - DataFrame2 (df2) - [utu(우투)](https://utu.kr/rank)에서 한국 top100
 유튜브채널 정보 크롤링 
     - DataFrame3 (df3) - df1과 df2 같은 채널명끼리 
 항목(column) 병합
